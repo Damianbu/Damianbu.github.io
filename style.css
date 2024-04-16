@@ -1,0 +1,135 @@
+/* work-sans-regular - latin */
+@font-face {
+    font-display: swap;
+
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/work-sans-v19-latin-regular.woff2') format('woff2');
+
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* work-sans-500 - latin */
+@font-face {
+    font-display: swap;
+
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('assets/fonts/work-sans-v19-latin-500.woff2') format('woff2');
+
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* work-sans-600 - latin */
+@font-face {
+    font-display: swap;
+
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('assets/fonts/work-sans-v19-latin-600.woff2') format('woff2');
+
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* work-sans-700 - latin */
+@font-face {
+    font-display: swap;
+
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('assets/fonts/work-sans-v19-latin-700.woff2') format('woff2');
+
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* work-sans-800 - latin */
+@font-face {
+    font-display: swap;
+
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('assets/fonts/work-sans-v19-latin-800.woff2') format('woff2');
+
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* archivo-black-regular - latin */
+@font-face {
+    font-display: swap;
+
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Archivo Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/archivo-black-v21-latin-regular.woff2') format('woff2');
+
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+section {
+    scroll-margin-top: 3.75rem;
+    padding: min(5vh, 5rem) 0;
+}
+
+.container-xl {
+    padding: 0 min(5vw, 5rem);
+}
+
+header {
+    background-color: #9a938b;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#home {
+    min-height: min(90svh, 750px);
+    margin-top: 3.5rem;
+}
+
+#home:before {
+    background-position: 10% 50%;
+    background-size: cover;
+}
+
+/* Added class for hero image overlay, used instead of filters in the design panel - due to bad performance on Safari */
+.backdrop-bg {
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+
+    /* transition: background-color 300ms ease-in; */
+}
+
+.about-p {
+    text-align: justify;
+    hyphens: auto;
+}
+
+#video-main::cue {
+    color: papayawhip;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 2rem;
+    white-space: pre;
+}
+
+@media (min-width: 768px) {
+    #video-main::cue {
+        font-size: 24px;
+        line-height: 3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #home {
+        margin-top: 3.75rem;
+    }
+}

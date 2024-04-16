@@ -1,0 +1,57 @@
+<project>
+    <documents></documents>
+    <dmdesigns>
+        <dmdesign>
+            <dmdesignskill skill="bs5.colors">
+                <dmcolor key="primary" color="rgb(163,92,11)"/>
+                <dmcolor key="secondary" color="rgb(140,68,4)"/>
+                <dmcolor key="info" color="rgb(244,218,200)"/>
+                <dmcolor key="success" color="#198754"/>
+                <dmcolor key="warning" color="#ffc107"/>
+                <dmcolor key="danger" color="#dc3545"/>
+                <dmcolor key="white" color="white"/>
+                <dmcolor key="light" color="#f8f9fa"/>
+                <dmcolor key="dark" color="#212529"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts"></dmdesignskill>
+            <dmdesignskill skill="headings"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors advanced="true" filter_blur="1" filter_brightness="40" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="60" filter_sepia="0" image="assets/images/hero_image.webp" selector="#home" image_sm="assets/images/hero_image_sm.webp" image_lg="assets/images/hero_image_lg.webp"></dmdesignskill>
+            <dmdesignskill skill="bootstrap" sizer="0"></dmdesignskill>
+        </dmdesign>
+        <dmdesign>
+            <dmdesignskill skill="bs5.colors">
+                <dmcolor key="primary" color="rgb(172,86,188)"/>
+                <dmcolor key="secondary" color="rgb(74,28,99)"/>
+                <dmcolor key="info" color="rgb(218,153,250)"/>
+                <dmcolor key="success" color="#198754"/>
+                <dmcolor key="warning" color="#ffc107"/>
+                <dmcolor key="danger" color="#dc3545"/>
+                <dmcolor key="white" color="white"/>
+                <dmcolor key="light" color="#f8f9fa"/>
+                <dmcolor key="dark" color="#212529"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts"></dmdesignskill>
+            <dmdesignskill skill="headings"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors advanced="true" filter_blur="1" filter_brightness="40" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="60" filter_sepia="0" image="assets/images/hero_image.webp" selector="#home" image_sm="assets/images/hero_image_sm.webp" image_lg="assets/images/hero_image_lg.webp"></dmdesignskill>
+            <dmdesignskill skill="bootstrap" sizer="0"></dmdesignskill>
+        </dmdesign>
+        <dmdesign active>
+            <dmdesignskill skill="bs5.colors">
+                <dmcolor key="primary" color="rgb(229,127,25)"/>
+                <dmcolor key="secondary" color="rgb(36,20,4)"/>
+                <dmcolor key="info" color="rgb(241,188,135)"/>
+                <dmcolor key="success" color="rgb(156,132,92)"/>
+                <dmcolor key="warning" color="rgb(80,65,51)"/>
+                <dmcolor key="danger" color="rgb(183,174,159)"/>
+                <dmcolor key="white" color="#f8efe9"/>
+                <dmcolor key="light" color="rgb(130,111,92)"/>
+                <dmcolor key="dark" color="#151311"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts" text_family="Work Sans" headings_family="Archivo Black"></dmdesignskill>
+            <dmdesignskill skill="headings" h1_effect="shadow"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors advanced="true" filter_blur="2" filter_brightness="80" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0" image="assets/images/Organ_1x.webp" selector="#home" image_sm="assets/images/Organ_sq_1x.webp" image_lg="assets/images/Organ_2x.webp" source="folder"></dmdesignskill>
+            <dmdesignskill skill="bootstrap" sizer="0"></dmdesignskill>
+        </dmdesign>
+    </dmdesigns>
+    <dmlocked bs5-colors-primary="false" bs5-colors-secondary="false" bs5-colors-info="false" bs5-colors-success="false" bs5-colors-warning="false" bs5-colors-danger="false" bs5-colors-white="true" bs5-colors-light="false" bs5-colors-dark="true"></dmlocked>
+</project>
